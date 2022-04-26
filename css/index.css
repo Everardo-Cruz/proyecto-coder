@@ -1,0 +1,1741 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inicio*/
+.body-inicio{
+    background-color: forestgreen;
+    
+}
+
+
+.header-inicio{
+    width: 100%;
+    background-color: rgb(33, 103, 33);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    border-bottom: solid rgb(10, 255, 10);
+}
+
+.icono__inicio{
+   display: none;
+}
+
+.foto{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    height: 200px;  /**/
+    
+}
+
+.foto-1{
+    width: 100px;
+    height:100px ;
+    
+    float: none;
+    float:right ;
+}
+.facebook{
+    width: 200px;
+    height: 200px;
+}
+
+.inicio-1{
+    width: 100%;
+}
+
+.menu{
+    padding: 15px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+   
+    
+    
+    gap: 2rem 2rem ;
+    
+}
+
+.boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 200px;
+    height: 60px;
+
+
+text-align: center;
+padding: 1rem;
+
+}
+
+
+
+
+img{
+    border-radius: 25px;
+}
+
+.texto{
+   display: flex;
+   padding: 1rem;
+   
+}
+
+.frase{
+    width: 50%;
+}
+
+.logo{
+    width: 50%;
+}
+.logo-img{
+    width:100%;
+    height: 100%;
+}
+
+
+.logo-2{
+   gap: 5rem 5rem;
+    width: 78%;
+    display: flex;
+    justify-content: end;
+   padding: 1rem;
+}
+
+.promociones{
+    padding: 100px  1rem;
+    min-height:100% ;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+
+.tilulo-promocion{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 40px;
+    padding: 1rem 1rem;
+
+}
+
+.contenido{
+    min-height: 700px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+    grid-template-areas: 
+    "ele1 ele1 ele1 ele2" 
+    "ele3 ele4 ele4 ele2 "
+    "ele5 ele5 ele5 ele5"
+    
+    ;
+    background-color: rgb(51, 78, 78);
+    gap: 1rem;  
+}
+
+.img-ofertas{
+    width: 100%;
+}
+
+
+
+.contiennido-1{
+    border-radius: 15px;
+    grid-area: ele1;
+    border:2px solid rgb(13, 255, 0) ;
+    background-color: rgb(4, 30, 30);
+}
+
+.contiennido-2{
+    border-radius: 15px;
+    grid-area: ele2;
+    border:2px solid rgb(34, 138, 28) ;
+}
+.contiennido-3{
+    border-radius: 15px;
+    grid-area: ele3;
+    border:2px solid rgb(13, 255, 0) ;
+    background-color: rgb(4, 30, 30);
+}
+
+.contiennido-4{
+    border-radius: 15px;
+    grid-area: ele4;
+    border:2px solid rgb(13, 255, 0) ;
+}
+
+.contiennido-5{
+    /* width: 500px; */
+    height: 200px;
+    border-radius: 15px;
+    grid-area: ele5;
+    border:2px solid rgb(13, 255, 0) ;
+    background-color: rgb(4, 30, 30);
+}
+
+
+
+.footer-inicio{
+    background-color: rgb(15, 228, 15);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+                                                                  /*ofertas */
+.body-ofertas{
+    background-color: rgb(32, 96, 53);
+}
+
+
+.header-ofertas {
+    border-bottom: solid 5px rgb(22, 207, 49) ; 
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ofer{
+    background-color: rgba(39, 101, 172, 0.391);
+    width: 100%;
+    text-align: center;
+}
+
+.boton-ofertas{
+    border-radius: 15px;
+}
+
+
+
+ .ofertones{
+     gap: 1rem; 
+ /*  padding: 1rem;  */
+    width: 100%;
+background-color: black;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-template-areas:
+"ofe1 ofe2"
+"ofe3 ofe4"
+;
+ }
+
+
+
+
+.oferta-1{
+    grid-area: ofe1;
+    background-color: rgb(41, 81, 81);
+border-radius: 15px;
+border-right: solid 5px rgb(34, 255, 0);
+border-bottom: solid 5px rgb(34, 255, 0); 
+border-top: solid  5px rgb(34, 255, 0);
+border-left: solid 5px rgb(34, 255, 0);
+}
+
+.texto-1{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.img-oferta-1{
+   display: block;
+   margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+/* oferta-2*/
+.oferta-2{
+    border-right: solid 5px rgb(34, 255, 0);
+border-bottom: solid 5px rgb(34, 255, 0); 
+border-top: solid  5px rgb(34, 255, 0);
+border-left: solid 5px rgb(34, 255, 0);
+background-color: rgb(41, 81, 81);
+    grid-area:ofe2;
+border-radius: 15px;
+}
+
+.texto-2{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.img-oferta-2{
+    
+     
+   display: block;
+   margin:auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    padding: 15px;
+}
+/* oferta-3*/
+.oferta-3{
+    border-right: solid 5px rgb(34, 255, 0);
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    border-top: solid  5px rgb(34, 255, 0);
+    border-left: solid 5px rgb(34, 255, 0);
+    background-color: rgb(41, 81, 81);
+    grid-area: ofe3;
+border-radius: 15px;
+}
+
+.texto-3{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.img-oferta-3{
+
+   display: block;
+   margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.oferta-4{
+    border-right: solid 5px rgb(34, 255, 0);
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    border-top: solid  5px rgb(34, 255, 0);
+    border-left: solid 5px rgb(34, 255, 0);
+    background-color: rgb(41, 81, 81);
+    grid-area: ofe4;
+border-radius: 15px;
+}
+
+.texto-4{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.img-oferta-4{
+
+    display: block;
+    margin:auto;
+ 
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ 
+     border-radius: 15px;
+     padding: 15px;
+ }
+
+ .footer-ofertas{
+    padding: 1rem 1rem;
+    background-color: rgb(191, 232, 172);
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 25px;
+    
+}
+
+
+    
+
+
+                                                                   /*MENU */
+.body-menu{
+    text-align: center;
+    background-color: rgb(170, 242, 242);
+}
+
+.header-menu{ background-color: rgb(75, 169, 169);
+
+}
+
+
+.Bebidad-y-Alimentos {
+    background-color: azure;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.suptitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Regresar {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.fondo-1 {
+    
+    background-color: aquamarine;
+    border: 0px solid ;
+    padding: 1rem;
+    min-height: 370px;
+    border-radius: 15px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+   
+    margin: 5pc;
+    background-image:url(/imagenes/logo-3.png);
+    background-repeat: no-repeat;
+    /*background-size: cover; */
+    background-position: center;
+    background-attachment: fixed;
+    align-content:stretch;
+    gap: 1rem  1rem;
+}
+
+.tarjeta__imagen{
+    width: 100px;
+}
+
+.men{
+    gap: 1rem 1rem;
+    width: 100%;
+   display: grid;
+   grid-template-columns: 3, 1fr;
+   grid-template-rows:3, 1fr;
+   grid-template-areas:
+   "ofer ofer2 ofer3"
+   "ofer4 ofer5 ofer6"
+   "ofer7 ofer8 ofer9"
+   ;
+}
+
+.Alimentos{
+background-color: darkslategrey;
+
+}
+  
+
+.fondo-2 {
+    background-color: beige;
+    
+padding: 1rem;
+min-height: 610px;
+flex: auto;
+grid-template-columns: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+flex-flow: wrap;
+align-content:stretch;
+
+background-image: url(/imagenes/logo-3.png);
+background-position: center;
+/*background-repeat: no-repeat;*/
+background-attachment: fixed;
+gap: 3rem  3rem;
+}
+
+.tarjeta{
+    grid-area: ofer;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tarjeta-2{
+    grid-area: ofer2;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tarjeta-3{
+    grid-area: ofer3;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tarjeta-4{
+    grid-area:ofer4;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tarjeta-5{
+    grid-area: ofer5;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tarjeta-6{
+    grid-area: ofer6;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tarjeta-7{
+    grid-area: ofer7;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tarjeta-8{
+    grid-area: ofer8 ;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tarjeta-9{
+    grid-area: ofer9 ;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.men-2{
+    gap: 1rem 1rem;
+    display: grid;
+    grid-template-columns:2, 1fr ;
+    grid-template-rows:3, 1fr ;
+    grid-template-areas:
+    "bevida1 bevida2"
+    "bevida3 bevida4"
+    "bevida5 bevida5"
+    ;
+}
+
+.tar-1{
+    grid-area: bevida1 ;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tar-2{
+    grid-area: bevida2 ;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tar-3{
+    grid-area: bevida3 ;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tar-4{
+    grid-area: bevida4 ;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+.tar-5{
+    grid-area: bevida5;
+    background-color: greenyellow;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 55px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+border-right: solid 10px yellow;
+border-bottom: solid 10px red ;
+margin: auto;
+position: relative;
+/* es para posicionar */
+display: inline-block;
+gap: 2rem 3rem;
+}
+
+
+.footer-menu{
+    background-color:rgb(72, 148, 148);
+    width: 100%;
+height: 60px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+
+
+
+
+
+
+                                                                      /*VISITANOS*/
+.body-visitanos{
+    width: 100%;
+    background-color: rgb(114, 186, 114);
+}
+
+.header-visitanos{
+    background-color: aquamarine;
+    border-bottom: solid 10px rgb(34, 83, 57) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    gap: 1rem;
+
+}
+
+.boton-visitanos{
+    border-radius: 15px;
+    color: darkgreen;
+}
+
+.lugares {
+    background-color: forestgreen;
+    border-radius: 15px ;
+    height: 150px;
+    width: 100%;
+
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pregunta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.opciones{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.puebla{
+    background: rgb(104,235,128);
+    background: radial-gradient(circle, rgba(104,235,128,1) 24%, rgba(18,116,128,1) 76%);
+    height: 300px;
+    border-radius: 25px;
+}
+
+.tex-puebla{
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frase-1 {
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: -100px;
+
+    
+}
+
+
+.img-puebla{
+   display: block;
+   margin:auto;
+   border-radius: 15px;
+
+   gap: 15px;
+}
+
+
+
+/* */
+
+.oaxaca{
+    background: rgb(47,114,171);
+background: radial-gradient(circle, rgba(47,114,171,1) 24%, rgba(6,166,38,1) 60%);
+    height: 300px;
+    border-radius: 25px;
+}
+
+.tex-oaxaca{
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frase-2 {
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: -100px;
+
+}
+
+
+.img-oaxaca{
+    width: 200px ;
+    height: 200px;
+   display: block;
+   margin:auto;
+   border-radius: 15px;
+
+   gap: 15px;
+}
+
+
+/* */
+
+.nuevo-leon{
+    background: rgb(104,235,128);
+    background: radial-gradient(circle, rgba(104,235,128,1) 24%, rgba(18,116,128,1) 76%);
+    height: 300px;
+    border-radius: 25px;
+}
+
+.tex-nuevo-leon{
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frase-3 {
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: -100px;
+
+}
+
+
+.img-nuevo-leon{
+    width: 200px ;
+    height: 200px;
+   display: block;
+   margin:auto;
+   border-radius: 15px;
+
+   gap: 15px;
+}
+
+
+/* */
+
+
+
+.veracruz{
+    background: rgb(47,114,171);
+background: radial-gradient(circle, rgba(47,114,171,1) 24%, rgba(6,166,38,1) 60%);
+    height: 300px;
+    border-radius: 25px;
+}
+
+.tex-veracruz{
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frase-4 {
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: -100px;
+
+}
+
+
+.img-veracruz{
+    width: 200px ;
+    height: 200px;
+   display: block;
+   margin:auto;
+   border-radius: 15px;
+
+   gap: 15px;
+}
+
+.lssugare{
+    background-color: rgb(13, 81, 81);
+}
+
+.fotos-de-lugares{
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows:repeat(2, 1fr);
+grid-template-areas:
+"fotitos-1 fotitos-2 fotitos-3"
+"fotitos-4 fotitos-5 fotitos-6"
+;
+}
+
+.ramdom-fotos{
+    gap: 1rem;
+    border: solid 5px rgb(149, 255, 0);
+    width: 100%;
+}
+
+.lugares-ramdom-1{
+    grid-area:fotitos-1;
+}
+.lugares-ramdom-2{
+    grid-area:fotitos-2;
+}
+.lugares-ramdom-3{
+    grid-area:fotitos-3;
+}
+.lugares-ramdom-4{
+    grid-area:fotitos-4;
+}
+.lugares-ramdom-5{
+    grid-area:fotitos-5;
+}
+.lugares-ramdom-6{
+    grid-area:fotitos-6;
+}
+
+.footer-visitanos{
+    background-color: limegreen;
+    width:100% ;
+    height:50px ;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center
+}
+                                           /* BUSCAS TRABAJO?*/
+.body-trabajo{
+    background-color: rgb(153, 180, 105);    
+}
+
+
+.header-trabajo{
+    display: flex;
+    color: darkgreen;
+    border-bottom: solid greenyellow;
+
+
+   /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;*/  
+}
+
+
+.logo{
+    
+    border-radius: 15px;
+}
+
+.logo-1{
+   
+   width: 50%;
+}
+
+.titulo{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-trabajo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem 1rem;
+}
+
+
+
+.encuesta {
+ width: 100%;
+    background-color: rgba(52, 101, 84, 0.219);
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 280px;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+
+border-right: solid 5px rgb(6, 6, 5);
+border-bottom: solid 5px rgb(0, 0, 0) ; 
+border-top: solid  5px rgb(0, 0, 0);
+border-left: solid 5px rgb(0, 0, 0);
+
+display: flex;
+flex-direction:column;
+justify-content: center;
+
+}
+
+
+.imagen {
+width:100%;
+padding: 1rem;
+border-radius: 50px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   
+
+}
+
+
+
+
+.respueseta{
+width: 300px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center ;  
+    align-items: center; 
+
+    border-radius: 15px;
+
+}
+
+.botton-centro{
+    padding: 1rem;
+}
+
+
+.borde {
+    border-radius: 12px;
+    
+}
+
+
+.boton-2{
+    
+   width: 100px;
+   border-radius: 15px;
+   
+   display: block;
+   margin:0 auto;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+
+.footer-trabajo{
+    background-color: chartreuse;
+    height: 50px;
+    width: 100%;
+   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+                                                        /* PREGUNTAS FRECUENTES*/
+.body-preguntas{
+    background-color: rgb(105, 111, 106);
+    }
+    
+    
+    .header-preguntas{
+        border-radius: 15px;
+        background-color: rgb(221, 224, 228);
+    border-bottom: solid 5px rgb(0, 0, 0) ; 
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem 3rem;
+    }
+    
+    
+    
+    
+    .boton-preguntas {
+        width: 100px;
+        border-radius: 15px;
+        display: flex;
+    }
+    
+    .fondo{
+        background-attachment: fixed;
+    }
+    
+    
+    
+    .curbeado{
+        border-radius: 15px;
+    
+    }
+
+    .pregunta-trabajo{
+        display: flex;
+       flex-direction: column;
+      align-items: center;
+       width: 100%;
+    }
+    
+    .h6-preguntas{
+     color: rgb(15, 103, 42);
+       
+    }
+
+    .comentarios-chidos{
+        border-top: solid white;
+        background-color: rgb(136, 136, 136);
+    }
+
+    .com{
+        padding: 1rem;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows:repeat(4, 1fr);
+        grid-template-areas: 
+        "cri-1"
+        "cri-2"
+        "cri-3"
+        "cri-4"
+        ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .criticas-1{
+        border-radius: 10px;
+        background-color: aliceblue;
+        border: solid 5px black;
+        grid-area:cri-1 ;
+
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .criticas-2{
+        border-radius: 10px;
+        background-color: aliceblue;
+        border: solid 5px black;
+        grid-area:cri-2;
+
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .criticas-3{
+        border-radius: 10px;
+        background-color: aliceblue;
+        border: solid 5px black;
+        grid-area:cri-3;
+
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .criticas-4{
+        border-radius: 10px;
+        background-color: aliceblue;
+        border: solid 5px black;
+        grid-area:cri-4 ;
+
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-trabajo{
+        background-color: chartreuse;
+        height: 50px;
+        width: 100%;
+       
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer-preguntas{
+        display: flex;
+        flex-direction: row;
+        justify-items: end;
+        align-items: stretch;
+        width: 100%;
+        height: 100%;
+    }
+
+                                                                      /* INDICE VISTA MOVIL */
+    @media screen and (max-width: 600px) {
+        .body-inicio{
+            background-color: rgb(255, 255, 255);  
+            width: 100%;         
+            }
+            .header-inicio{ 
+                width: 100%;
+                
+                background-color: rgb(240, 246, 246);
+                border-bottom: solid 5px black;
+                border-top: solid 5px green;
+                flex-direction: column; 
+               /*  font-size: 10px; 
+                gap: 0.5rem; */        
+            }
+            .icono__inicio{
+                padding: 1rem;
+                width: 20px;
+                display: block;
+            }
+            .foto{
+                justify-content: space-between;
+                width: 100%;
+                padding: 0.5rem;
+            }
+            .foto-1{
+                width: 100px;
+            }
+    
+            .menu{
+               
+                display: none;
+            }
+            .inicio-1{
+                width: 100%;
+                height: 160px;
+                
+            }
+    .texto{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+            .frase{
+                width: 100%;
+                background-color: rgb(196, 255, 86);
+            border-radius: 15px;
+            }
+           .logo{
+               width: 100%;
+               height: 500px;
+           }
+           .logo-2{
+            width: 100%
+           }
+           .logo-2img{
+            width: 100%
+           }
+     
+    
+           .facebook{
+            width: 30%;
+            height: 30%;
+        }
+    
+        .promociones{
+            width: 100%;
+            padding: 0.50rem;
+            /* height: 2200px; */
+            /* height: 100%; */
+        }
+    
+           .contenido{
+            height: 100%;
+               
+            border-radius: 15px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows:repeat(5, 1fr);
+            grid-template-areas: 
+            "ele1 ele1"
+            "ele2 ele2"
+            "ele3 ele3"
+            "ele4 ele4"
+            "ele5 ele5"
+           }
+    
+           .footer-inicio{
+               flex-direction: column;
+               padding: 1rem;
+               width: 100%;
+               height: 100%;
+               font-size: 5px;
+           }
+                                                                     /* vista movil   ofertas */
+.body-ofertas{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.header-ofertas {
+    
+    border-bottom: solid 5px rgb(22, 207, 49) ; 
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ofertones{
+    border-radius: 15px;
+    padding: 0.5rem;
+    width: 100%;
+background-color: rgb(40, 226, 255);
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-template-areas:
+"ofe1 "
+"ofe2"
+"ofe3"
+"ofe4"
+;
+ }
+ .oferta-1{
+    grid-area: ofe1;
+border-radius: 15px;
+border-right: solid 5px rgb(255, 255, 0);
+border-bottom: solid 5px rgb(225, 31, 31) ; 
+border-top: solid  5px rgb(11, 215, 191);
+border-left: solid 5px rgb(0, 118, 154);
+    background-color: rgb(254, 254, 254);
+}
+
+.texto-1{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-oferta-1{  
+    display: block;
+    margin:auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 15px;
+ }
+/* oferta-2*/
+.oferta-2{
+    border-right: solid 5px rgb(255, 255, 0);
+    border-bottom: solid 5px rgb(225, 31, 31) ; 
+    border-top: solid  5px rgb(11, 215, 191);
+    border-left: solid 5px rgb(0, 118, 154);
+        background-color: rgb(254, 254, 254);
+    grid-area:ofe2;
+border-radius: 15px;
+}
+
+.texto-2{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.img-oferta-2{
+    
+     
+   display: block;
+   margin:auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    padding: 15px;
+}
+/* oferta-3*/
+.oferta-3{
+    
+    border-right: solid 5px rgb(255, 255, 0);
+border-bottom: solid 5px rgb(225, 31, 31) ; 
+border-top: solid  5px rgb(11, 215, 191);
+border-left: solid 5px rgb(0, 118, 154);
+    background-color: rgb(254, 254, 254);
+    grid-area: ofe3;
+border-radius: 15px;
+}
+
+.texto-3{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.img-oferta-3{
+
+   display: block;
+   margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.oferta-4{
+    border-right: solid 5px rgb(255, 255, 0);
+border-bottom: solid 5px rgb(225, 31, 31) ; 
+border-top: solid  5px rgb(11, 215, 191);
+border-left: solid 5px rgb(0, 118, 154);
+    background-color: rgb(254, 254, 254);
+    
+    grid-area: ofe4;
+border-radius: 15px;
+}
+
+.texto-4{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.img-oferta-4{
+
+    display: block;
+    margin:auto;
+ 
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ 
+     border-radius: 15px;
+     padding: 15px;
+ }
+.footer-ofertas{
+background-color: rgb(36, 115, 115);
+}           
+                                               /* visra movil de menu */
+.body-menu{
+    width: 100%;
+    background-color: gainsboro;
+}
+
+.header-menu{
+  background-color: aquamarine;
+  width: 100%;
+}
+
+.fondo-1{
+    background-color: black;
+}
+
+.men{
+    gap: 1rem 1rem;
+    width: 100%;
+   display: grid;
+   grid-template-columns: 2, 1fr;
+   grid-template-rows:4, 1fr;
+   grid-template-areas:
+   "ofer "
+   "ofer2"
+    "ofer3"
+    "ofer4"
+    "ofer5"
+    "ofer6"
+    "ofer7 "
+    "ofer8"
+    "ofer9"
+   ;
+}
+
+.tarjeta, .tarjeta-2, .tarjeta-3, .tarjeta-4, .tarjeta-5, .tarjeta-6, .tarjeta-7, .tarjeta-8, .tarjeta-9{
+    background-color: rgba(255, 255, 255, 0.728);
+    border-right: solid 10px rgb(92, 92, 91);
+border-bottom: solid 10px rgb(247, 246, 246) ;
+color: cadetblue;
+}
+
+
+.men-2{
+    gap: 1rem 1rem;
+    display: grid;
+    grid-template-columns:1, 1fr ;
+    grid-template-rows:auto;
+    grid-template-areas:
+    "bevida1" 
+    "bevida2"
+    "bevida3" 
+    "bevida4"
+    "bevida5"
+     /* bevida5" */
+    ;
+}
+
+.tar-1, .tar-2, .tar-3, .tar-4, .tar-5{
+    background-color: rgba(255, 255, 255, 0.728);   
+    border-right: solid 10px rgb(92, 92, 91);
+border-bottom: solid 10px rgb(247, 246, 246) ;
+color: cadetblue;
+}
+
+
+
+/* vitanos movil de ubicacioces */
+.body-visitanos{
+    background-color: white;
+}
+
+.header-visitanos{
+    background-color: dimgrey;
+    border-bottom: solid 5px black;
+}
+
+.lugares{
+    background-color: aliceblue;
+    border: solid 5px black;
+}
+
+.puebla, .nuevo-leon{
+    background-color: rgb(62, 63, 63);
+    border: solid 5px black;
+}
+
+.oaxaca, .veracruz{
+    background-color: rgb(223, 225, 225);
+    border: solid 5px black; 
+}
+
+.fotos-de-lugares{
+    grid-template-columns:repeat(1, 1fr);
+    grid-template-rows:repeat(6, 1fr) ;
+    grid-template-areas: 
+"fotitos-1" 
+"fotitos-2" 
+"fotitos-3"
+"fotitos-4" 
+"fotitos-5" 
+"fotitos-6"
+    ;
+}
+/* Buscas trabajo?pues ya no busques ,¡ven con nosotros.! */
+
+.body-trabajo{
+    background-color: white;
+}
+
+.header-trabajo{
+    color: black;
+    background-color: antiquewhite;
+    border-bottom: solid 5px black;
+}
+
+.logo{
+   display: none;
+}
+
+.encuesta{
+    background-color: black;
+    min-width: 300px;
+    overflow: auto;
+}
+
+.footer-trabajo{
+    background-color: cornflowerblue;
+}
+
+/* PREGUNRAS FRECUENTES */
+.body-preguntas{
+    background: rgb(104,125,235);
+background: radial-gradient(circle, rgba(104,125,235,1) 40%, rgba(33,199,161,1) 100%);
+}
+
+.header-preguntas{
+    background: rgb(13,217,219);
+background: linear-gradient(0deg, rgba(13,217,219,1) 29%, rgba(0,41,240,1) 74%);
+}
+
+.com{
+    background-color: black;
+}
+
+.criticas-1, .criticas-3{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(164,200,242,1) 100%);
+}
+
+.criticas-2, .criticas-4{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(164,235,242,1) 100%);
+}
+
+        }
+
+
