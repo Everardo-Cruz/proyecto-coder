@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+@each $center in (h4,h2){
+    #{$center}{
+        text-align: center;
+    }
+}
+
+body {
+    background-color: $colorRosa ;
+    margin: 50px;
+
+}
+
+.ven {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 0, 255);
+}
+
+.logoo {
+    border-radius: 100%;
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+h3 {
+    margin-top: 20px;
+    color: chocolate;
+}
+
+span {
+    color: brown;
+}
+
+.cuadro {
+
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(164, 235, 242, 1) 100%);
+
+
+    .veneficio {
+        padding: 1rem;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            "ven-1 ven-2"
+            "ven-3 ven-4"
+        ;
+
+
+        &-1 {
+            padding: 1rem;
+            grid-area: ven-1;
+            border: solid 5px $colorchido;}
+            
+        
+            
+            &-2 {
+                padding: 1rem;
+                grid-area: ven-2;
+                border: solid 5px $colorchido;
+            }
+        
+            &-3 {
+                padding: 1rem;
+                grid-area: ven-3;
+                border: solid 5px $colorchido;
+            }
+        
+            &-4 {
+                padding: 1rem;
+                grid-area: ven-4;
+                border: solid 5px $colorchido;
+            }
+            
+        }
+
+
+    }
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ganas-dinero {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    
+
+}
+
+.popular {
+    @extend .ganas-dinero
+}
+
+.descuentos {
+    @extend .ganas-dinero
+}
+
+.regalo {
+    @extend .ganas-dinero
+}
+

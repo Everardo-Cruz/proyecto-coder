@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+h4 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+body {
+  background-color: pink;
+  margin: 50px; }
+
+.ven {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+.contenedor {
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+h3 {
+  text-align: center; }
+
+h1 {
+  color: blue; }
+
+.logoo {
+  border-radius: 100%;
+  width: 200px;
+  height: auto; }
+
+h3 {
+  margin-top: 20px;
+  color: chocolate; }
+
+span {
+  color: brown; }
+
+.cuadro {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #a4ebf2 100%); }
+  .cuadro .veneficio {
+    padding: 1rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "ven-1 ven-2" "ven-3 ven-4"; }
+    .cuadro .veneficio-1 {
+      padding: 1rem;
+      grid-area: ven-1;
+      border: solid 5px azure; }
+    .cuadro .veneficio-2 {
+      padding: 1rem;
+      grid-area: ven-2;
+      border: solid 5px azure; }
+    .cuadro .veneficio-3 {
+      padding: 1rem;
+      grid-area: ven-3;
+      border: solid 5px azure; }
+    .cuadro .veneficio-4 {
+      padding: 1rem;
+      grid-area: ven-4;
+      border: solid 5px azure; }
+
+.ganas-dinero, .popular, .descuentos, .regalo {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; }
+  .ganas-dinero:hover, .popular:hover, .descuentos:hover, .regalo:hover {
+    transform: translateY(-10px); }
+
+.his {
+  background-color: azure;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
