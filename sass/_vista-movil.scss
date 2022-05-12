@@ -1,0 +1,488 @@
+    /* INDICE VISTA MOVIL */
+    @media screen and (max-width: 600px) {
+        .body-inicio{
+            background-color: rgb(118, 95, 95);  
+            width: 100%;         
+            }
+            .header-inicio{ 
+                width: 100%;
+                
+                background-color: rgb(240, 246, 246);
+                border-bottom: solid 5px black;
+                border-top: solid 5px green;
+                flex-direction: column; 
+               /*  font-size: 10px; 
+                gap: 0.5rem; */        
+            }
+            .icono__inicio{
+                padding: 1rem;
+                width: 20px;
+                display: block;
+            }
+            .foto{
+                justify-content: space-between;
+                width: 100%;
+                padding: 0.5rem;
+            }
+            .foto-1{
+                width: 100px;
+            }
+    
+            .menu{
+               
+                display: none;
+            }
+            .inicio-1{
+                width: 100%;
+                height: 160px;
+                
+            }
+    .texto{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+            .frase{
+                width: 100%;
+                background-color: rgb(196, 255, 86);
+            border-radius: 15px;
+            }
+           .logo{
+               width: 100%;
+               height: 500px;
+           }
+           .logo-2{
+            width: 100%
+           }
+           .logo-2img{
+            width: 100%
+           }
+     
+    
+           .facebook{
+            width: 30%;
+            height: 30%;
+        }
+    
+        .promociones{
+            width: 100%;
+            padding: 0.50rem;
+            /* height: 2200px; */
+            /* height: 100%; */
+        }
+    
+           .contenido{
+            height: 100%;
+               
+            border-radius: 15px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows:repeat(5, 1fr);
+            grid-template-areas: 
+            "ele1 ele1"
+            "ele2 ele2"
+            "ele3 ele3"
+            "ele4 ele4"
+            "ele5 ele5"
+           }
+    
+           .footer-inicio{
+               flex-direction: column;
+               padding: 1rem;
+               width: 100%;
+               height: 100%;
+               font-size: 5px;
+           }
+                                                                     /* vista movil   ofertas */
+.body-ofertas{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.header-ofertas {
+    
+    border-bottom: solid 5px rgb(22, 207, 49) ; 
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ofertones{
+    border-radius: 15px;
+    padding: 0.5rem;
+    width: 100%;
+background-color: rgb(40, 226, 255);
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-template-areas:
+"ofe1 "
+"ofe2"
+"ofe3"
+"ofe4"
+;
+ }
+ .oferta-1{
+    grid-area: ofe1;
+border-radius: 15px;
+border-right: solid 5px rgb(255, 255, 0);
+border-bottom: solid 5px rgb(225, 31, 31) ; 
+border-top: solid  5px rgb(11, 215, 191);
+border-left: solid 5px rgb(0, 118, 154);
+    background-color: rgb(254, 254, 254);
+}
+
+.texto-1{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-oferta-1{  
+    display: block;
+    margin:auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 15px;
+ }
+/* oferta-2*/
+.oferta-2{
+    border-right: solid 5px rgb(255, 255, 0);
+    border-bottom: solid 5px rgb(225, 31, 31) ; 
+    border-top: solid  5px rgb(11, 215, 191);
+    border-left: solid 5px rgb(0, 118, 154);
+        background-color: rgb(254, 254, 254);
+    grid-area:ofe2;
+border-radius: 15px;
+}
+
+.texto-2{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.img-oferta-2{
+    
+     
+   display: block;
+   margin:auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    padding: 15px;
+}
+/* oferta-3*/
+.oferta-3{
+    
+    border-right: solid 5px rgb(255, 255, 0);
+border-bottom: solid 5px rgb(225, 31, 31) ; 
+border-top: solid  5px rgb(11, 215, 191);
+border-left: solid 5px rgb(0, 118, 154);
+    background-color: rgb(254, 254, 254);
+    grid-area: ofe3;
+border-radius: 15px;
+}
+
+.texto-3{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.img-oferta-3{
+
+   display: block;
+   margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.oferta-4{
+    border-right: solid 5px rgb(255, 255, 0);
+border-bottom: solid 5px rgb(225, 31, 31) ; 
+border-top: solid  5px rgb(11, 215, 191);
+border-left: solid 5px rgb(0, 118, 154);
+    background-color: rgb(254, 254, 254);
+    
+    grid-area: ofe4;
+border-radius: 15px;
+}
+
+.texto-4{
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.img-oferta-4{
+
+    display: block;
+    margin:auto;
+ 
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ 
+     border-radius: 15px;
+     padding: 15px;
+ }
+.footer-ofertas{
+background-color: rgb(36, 115, 115);
+}           
+                                               /* visra movil de menu */
+.body-menu{
+    width: 100%;
+    background-color: gainsboro;
+}
+
+.header-menu{
+  background-color: aquamarine;
+  width: 100%;
+}
+
+.fondo-1{
+    background-color: black;
+}
+
+.men{
+    gap: 1rem 1rem;
+    width: 100%;
+   display: grid;
+   grid-template-columns: 2, 1fr;
+   grid-template-rows:4, 1fr;
+   grid-template-areas:
+   "ofer "
+   "ofer2"
+    "ofer3"
+    "ofer4"
+    "ofer5"
+    "ofer6"
+    "ofer7 "
+    "ofer8"
+    "ofer9"
+   ;
+}
+
+.tarjeta, .tarjeta-2, .tarjeta-3, .tarjeta-4, .tarjeta-5, .tarjeta-6, .tarjeta-7, .tarjeta-8, .tarjeta-9{
+    background-color: rgba(255, 255, 255, 0.728);
+    border-right: solid 10px rgb(92, 92, 91);
+border-bottom: solid 10px rgb(247, 246, 246) ;
+color: cadetblue;
+}
+
+
+.men-2{
+    gap: 1rem 1rem;
+    display: grid;
+    grid-template-columns:1, 1fr ;
+    grid-template-rows:auto;
+    grid-template-areas:
+    "bevida1" 
+    "bevida2"
+    "bevida3" 
+    "bevida4"
+    "bevida5"
+     /* bevida5" */
+    ;
+}
+
+.tar-1, .tar-2, .tar-3, .tar-4, .tar-5{
+    background-color: rgba(255, 255, 255, 0.728);   
+    border-right: solid 10px rgb(92, 92, 91);
+border-bottom: solid 10px rgb(247, 246, 246) ;
+color: cadetblue;
+}
+
+
+
+/* vitanos movil de ubicacioces */
+.body-visitanos{
+    background-color: white;
+}
+
+.header-visitanos{
+    background-color: dimgrey;
+    border-bottom: solid 5px black;
+}
+
+.lugares{
+    background-color: aliceblue;
+    border: solid 5px black;
+}
+
+.puebla, .nuevo-leon{
+    background-color: rgb(62, 63, 63);
+    border: solid 5px black;
+}
+
+.oaxaca, .veracruz{
+    background-color: rgb(223, 225, 225);
+    border: solid 5px black; 
+}
+
+.fotos-de-lugares{
+    grid-template-columns:repeat(1, 1fr);
+    grid-template-rows:repeat(6, 1fr) ;
+    grid-template-areas: 
+"fotitos-1" 
+"fotitos-2" 
+"fotitos-3"
+"fotitos-4" 
+"fotitos-5" 
+"fotitos-6"
+    ;
+}
+/* Buscas trabajo?pues ya no busques ,¡ven con nosotros.! */
+
+.body-trabajo{
+    background-color: white;
+}
+
+.header-trabajo{
+    color: black;
+    background-color: antiquewhite;
+    border-bottom: solid 5px black;
+}
+
+.logo{
+   display: none;
+}
+
+.encuesta{
+    background-color: black;
+    min-width: 300px;
+    overflow: auto;
+}
+
+.footer-trabajo{
+    background-color: cornflowerblue;
+}
+
+                                                        /* PREGUNRAS FRECUENTES */
+.body-preguntas{
+   
+
+-webkit-animation: color-change-5x 8s linear infinite alternate both;
+	        animation: color-change-5x 8s linear infinite alternate both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-4-27 17:0:38
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation color-change-5x
+ * ----------------------------------------
+ */
+ @-webkit-keyframes color-change-5x {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: #ea2222;
+    }
+    75% {
+      background: #f5be10;
+    }
+    100% {
+      background: #3bd80d;
+    }
+  }
+  @keyframes color-change-5x {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: #ea2222;
+    }
+    75% {
+      background: #f5be10;
+    }
+    100% {
+      background: #3bd80d;
+    }
+  }
+
+  .boton-preguntas {
+    min-width: 90px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #4ecdc4 0%, #c797eb 75%);
+ 
+  }
+  .css-button-gradient--1:hover {
+    background-position: right center;
+  }
+  .css-button-gradient--1:active {
+    top: 2px;
+  }
+  
+/**/
+.header-preguntas{
+    background: rgb(13,217,219);
+background: linear-gradient(0deg, rgba(13,217,219,1) 29%, rgba(0,41,240,1) 74%);
+}
+
+.com{
+    background-color: black;
+}
+
+
+
+.criticas-1, .criticas-3{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(164,200,242,1) 100%);
+}
+
+.criticas-2, .criticas-4{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(164,235,242,1) 100%);
+}
+
+.for{
+    padding: 1rem;
+    gap: 1rem 1rem;
+    display: flex;
+   flex-direction: column;
+
+        }
+
+    }

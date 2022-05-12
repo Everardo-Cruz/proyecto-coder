@@ -1,0 +1,69 @@
+/* @mixin piedepagina ($justify-content) {
+
+    border-radius: 20px;
+background-color :$verde;
+display: flex;
+justify-content: $justif-ycontent;
+padding: 30px 20px;
+box-shadow:0 20px 30px rgba(0, 0, 0, 0.2);
+
+
+} */
+
+
+.pie{
+    padding: 1rem 1rem;
+    background-color:$verde;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 25px;
+}
+
+
+
+@mixin name ($color) {
+    background-color: $color;
+   
+/* no pude */
+    /* @if ($tex == "yes"){
+        text-transform: uppercase;
+    } */
+
+}
+    
+
+
+@each $coloor in (a, h1){
+#{$coloor}{
+    color: $colorchido;
+}
+}
+
+$redes:(
+    twitter : #1d1d1d,
+    instagram : #55acee
+
+);
+
+@each $nam, $co in $redes {
+    .#{$nam}{
+        background-color: $co;
+        margin: 0 5px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}
+  
+ 
+
+
+
+
+
+
+
+

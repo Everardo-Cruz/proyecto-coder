@@ -532,7 +532,7 @@ justify-content: center;
     background-color: rgb(170, 242, 242);
 }
 
-.header-menu{ background-color: rgb(75, 169, 169);
+.header-menu{ background-color: rgba(82, 165, 200, 0.848);
 
 }
 
@@ -561,8 +561,9 @@ justify-content: center;
 
 
 .fondo-1 {
-    
-    background-color: aquamarine;
+    -webkit-animation: color-change-4x 6s linear infinite alternate both;
+  animation: color-change-4x 6s linear infinite alternate both;
+    /* background-color: rgb(28, 68, 55); */
     border: 0px solid ;
     padding: 1rem;
     min-height: 370px;
@@ -1410,7 +1411,7 @@ width: 300px;
 }
                                                         /* PREGUNTAS FRECUENTES*/
 .body-preguntas{
-    background-color: rgb(105, 111, 106);
+    background-color: rgb(73, 79, 74);
     }
     
     

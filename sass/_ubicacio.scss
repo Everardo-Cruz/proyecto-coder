@@ -1,0 +1,285 @@
+.body-visitanos{
+    width: 100%;
+    background-color: $colorchido;
+}
+
+.header-visitanos{
+    background-color: $colorchido;
+    border-bottom: solid 10px rgb(34, 83, 57) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    gap: 1rem;
+
+}
+
+.ven {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+/**/
+
+.boton-visitanos{
+    border-radius: 15px;
+    color: darkgreen;
+}
+
+.lugares {
+    background-color: $colorchido;
+    border-radius: 15px ;
+    height: 150px;
+    width: 100%;
+
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pregunta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.opciones{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.puebla{
+    background: rgb(104,235,128);
+    background: radial-gradient(circle, rgba(104,235,128,1) 24%, rgba(18,116,128,1) 76%);
+    height: 300px;
+    border-radius: 25px;
+}
+
+.tex-puebla{
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frase-1 {
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: -100px;
+
+    
+}
+
+
+.img-puebla{
+   display: block;
+   margin:auto;
+   border-radius: 15px;
+
+   gap: 15px;
+}
+
+
+
+/* */
+
+.oaxaca{
+    background: rgb(47,114,171);
+background: radial-gradient(circle, rgba(47,114,171,1) 24%, rgba(6,166,38,1) 60%);
+    height: 300px;
+    border-radius: 25px;
+}
+
+.tex-oaxaca{
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frase-2 {
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: -100px;
+
+}
+
+
+.img-oaxaca{
+    width: 200px ;
+    height: 200px;
+   display: block;
+   margin:auto;
+   border-radius: 15px;
+
+   gap: 15px;
+}
+
+
+/* */
+
+.nuevo-leon{
+    background: rgb(104,235,128);
+    background: radial-gradient(circle, rgba(104,235,128,1) 24%, rgba(18,116,128,1) 76%);
+    height: 300px;
+    border-radius: 25px;
+}
+
+.tex-nuevo-leon{
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frase-3 {
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: -100px;
+
+}
+
+
+.img-nuevo-leon{
+    width: 200px ;
+    height: 200px;
+   display: block;
+   margin:auto;
+   border-radius: 15px;
+
+   gap: 15px;
+}
+
+
+/* */
+
+
+
+.veracruz{
+    background: rgb(47,114,171);
+background: radial-gradient(circle, rgba(47,114,171,1) 24%, rgba(6,166,38,1) 60%);
+    height: 300px;
+    border-radius: 25px;
+}
+
+.tex-veracruz{
+    color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frase-4 {
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: -100px;
+
+}
+
+
+.img-veracruz{
+    width: 200px ;
+    height: 200px;
+   display: block;
+   margin:auto;
+   border-radius: 15px;
+
+   gap: 15px;
+}
+
+.lssugare{
+    -webkit-animation: color-change-4x 6s linear infinite alternate both;
+    animation: color-change-4x 6s linear infinite alternate both;
+}
+
+.fotos-de-lugares{
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows:repeat(2, 1fr);
+grid-template-areas:
+"fotitos-1 fotitos-2 fotitos-3"
+"fotitos-4 fotitos-5 fotitos-6"
+;
+}
+
+.ramdom-fotos{
+    gap: 1rem;
+    border: solid 5px rgb(149, 255, 0);
+    width: 100%;
+}
+
+.lugares-ramdom-1{
+    grid-area:fotitos-1;
+}
+.lugares-ramdom-2{
+    grid-area:fotitos-2;
+}
+.lugares-ramdom-3{
+    grid-area:fotitos-3;
+}
+.lugares-ramdom-4{
+    grid-area:fotitos-4;
+}
+.lugares-ramdom-5{
+    grid-area:fotitos-5;
+}
+.lugares-ramdom-6{
+    grid-area:fotitos-6;
+}
+
+.footer-visitanos{
+    @extend .pie;
+}

@@ -1,0 +1,168 @@
+.body-trabajo{
+  @include name ($colorRosa);  
+}
+
+.buscas {
+  color: $verde;
+}
+
+ /* @-webkit-keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+              transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+              transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  } */
+  
+
+
+/**/
+
+.header-trabajo{
+  @include name ($colorchido);
+    display: flex;
+    color: $colorchido/* darkgreen */;
+    border-bottom: solid rgb(24, 167, 215);
+
+
+
+}
+
+
+.logo{
+    
+    border-radius: 15px;
+}
+
+.logo-1{
+   
+   width: 50%;
+}
+
+.titulo{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-trabajo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem 1rem;
+}
+
+
+
+.encuesta {
+ width: 100%;
+ -webkit-animation: color-change-4x 6s linear infinite alternate both;
+ animation: color-change-4x 6s linear infinite alternate both;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 280px;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Smokum', cursive;
+
+border-right: solid 5px rgb(6, 6, 5);
+border-bottom: solid 5px rgb(0, 0, 0) ; 
+border-top: solid  5px rgb(0, 0, 0);
+border-left: solid 5px rgb(0, 0, 0);
+
+display: flex;
+flex-direction:column;
+justify-content: center;
+
+}
+
+
+.imagen {
+width:100%;
+padding: 1rem;
+border-radius: 50px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   
+
+}
+
+
+
+
+.respueseta{
+width: 300px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center ;  
+    align-items: center; 
+
+    border-radius: 15px;
+
+}
+
+.botton-centro{
+    padding: 1rem;
+}
+
+
+.borde {
+    border-radius: 12px;
+    
+}
+
+
+.boton-2{
+    
+   width: 100px;
+   border-radius: 15px;
+   
+   display: block;
+   margin:0 auto;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+
+.footer-trabajo{
+  @extend .pie;
+}
