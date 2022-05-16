@@ -838,7 +838,7 @@ img {
   border-top: solid white;
   background-color: #888888; }
 
-.com {
+.criticas {
   padding: 1rem;
   gap: 1rem;
   display: grid;
@@ -849,54 +849,50 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-
-.criticas-1 {
-  border-radius: 10px;
-  background-color: aliceblue;
-  border: solid 5px black;
-  grid-area: cri-1;
-  width: 400px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.criticas-2 {
-  border-radius: 10px;
-  background-color: aliceblue;
-  border: solid 5px black;
-  grid-area: cri-2;
-  width: 400px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.criticas-3 {
-  border-radius: 10px;
-  background-color: aliceblue;
-  border: solid 5px black;
-  grid-area: cri-3;
-  width: 400px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.criticas-4 {
-  border-radius: 10px;
-  background-color: aliceblue;
-  border: solid 5px black;
-  grid-area: cri-4;
-  width: 400px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  .criticas-1 {
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: solid 5px black;
+    grid-area: cri-1;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .criticas-2 {
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: solid 5px black;
+    grid-area: cri-2;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .criticas-3 {
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: solid 5px black;
+    grid-area: cri-3;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .criticas-4 {
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: solid 5px black;
+    grid-area: cri-4;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
 
 .footer-trabajo {
   background-color: chartreuse;
