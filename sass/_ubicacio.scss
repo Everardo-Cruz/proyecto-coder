@@ -17,6 +17,8 @@
 }
 
 .ven {
+
+    color: $verde;
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -56,11 +58,11 @@
 }
 
 .lugares {
-    background-color: $colorchido;
+    background-color: $verde;
     border-radius: 15px ;
     height: 150px;
     width: 100%;
-
+    gap: 3rem;
     display: flex ;
     flex-direction: row;
     justify-content: center;
@@ -240,6 +242,12 @@ background: radial-gradient(circle, rgba(47,114,171,1) 24%, rgba(6,166,38,1) 60%
 .lssugare{
     -webkit-animation: color-change-4x 6s linear infinite alternate both;
     animation: color-change-4x 6s linear infinite alternate both;
+}
+
+.foto-lugar{
+padding: 1rem;
+text-align: center;
+color: $colorchido;
 }
 
 .fotos-de-lugares{

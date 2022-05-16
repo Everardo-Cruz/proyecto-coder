@@ -123,12 +123,13 @@ h1 {
   /**/ }
 
 .foto-1 {
+  border-radius: 15px;
+  border-right: 5px;
   width: 100px;
-  height: 100px;
-  float: none;
-  float: right; }
+  height: auto; }
 
 .facebook {
+  margin-top: 15px;
   width: 200px;
   height: 200px; }
 
@@ -1054,6 +1055,7 @@ img {
   gap: 1rem; }
 
 .ven {
+  color: greenyellow;
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
@@ -1081,10 +1083,11 @@ img {
   color: darkgreen; }
 
 .lugares {
-  background-color: #45abab;
+  background-color: greenyellow;
   border-radius: 15px;
   height: 150px;
   width: 100%;
+  gap: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1216,6 +1219,11 @@ img {
 .lssugare {
   -webkit-animation: color-change-4x 6s linear infinite alternate both;
   animation: color-change-4x 6s linear infinite alternate both; }
+
+.foto-lugar {
+  padding: 1rem;
+  text-align: center;
+  color: #45abab; }
 
 .fotos-de-lugares {
   padding: 1rem;
