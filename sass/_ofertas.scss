@@ -6,11 +6,7 @@
 .header-ofertas {
  
 @include name ($colorchido );    
-   /*  border-bottom: solid 5px rgb(22, 207, 49) ; 
-    color: chartreuse;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; */
+   
 }
 
 .ofer{
@@ -20,6 +16,12 @@
 
     -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.ofertas-botones a {
+color: #b22cff;
+display: flex;
+align-items: center;
 }
 
  @-webkit-keyframes tracking-in-expand-fwd-top {
@@ -139,14 +141,12 @@ justify-content: center;
 
 /* oferta-2*/
 .oferta-2{
-  border-radius: 15px;
-border-right: solid 5px rgb(34, 255, 0);
-border-bottom: solid 5px rgb(34, 255, 0); 
-border-top: solid  5px rgb(34, 255, 0);
-border-left: solid 5px rgb(34, 255, 0);
-
     grid-area:ofe2;
-
+    border-radius: 15px;
+    border-right: solid 5px rgb(34, 255, 0);
+    border-bottom: solid 5px rgb(34, 255, 0); 
+    border-top: solid  5px rgb(34, 255, 0);
+    border-left: solid 5px rgb(34, 255, 0);
 }
 
 .texto-2{
@@ -172,13 +172,14 @@ justify-content: center;
 }
 /* oferta-3*/
 .oferta-3{
-    border-right: solid 5px rgb(34, 255, 0);
-    border-bottom: solid 5px rgb(34, 255, 0); 
-    border-top: solid  5px rgb(34, 255, 0);
-    border-left: solid 5px rgb(34, 255, 0);
-    background-color: rgb(41, 81, 81);
+    @extend .oferta-2;
     grid-area: ofe3;
-border-radius: 15px;
+    border-radius: 15px;
+border-right: solid 5px rgb(34, 255, 0);
+border-bottom: solid 5px rgb(34, 255, 0); 
+border-top: solid  5px rgb(34, 255, 0);
+border-left: solid 5px rgb(34, 255, 0);
+
 }
 
 .texto-3{
@@ -201,13 +202,13 @@ justify-content: center;
 }
 
 .oferta-4{
-    border-right: solid 5px rgb(34, 255, 0);
-    border-bottom: solid 5px rgb(34, 255, 0); 
-    border-top: solid  5px rgb(34, 255, 0);
-    border-left: solid 5px rgb(34, 255, 0);
-    background-color: rgb(41, 81, 81);
+  @extend .oferta-2;
     grid-area: ofe4;
-border-radius: 15px;
+    border-radius: 15px;
+border-right: solid 5px rgb(34, 255, 0);
+border-bottom: solid 5px rgb(34, 255, 0); 
+border-top: solid  5px rgb(34, 255, 0);
+border-left: solid 5px rgb(34, 255, 0);
 }
 
 .texto-4{

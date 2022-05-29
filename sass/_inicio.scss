@@ -7,6 +7,12 @@
 /* inicio*/
  .body-inicio {
   
+  #btn-menu {
+    display: none;
+  }
+  header label {
+    display: none;
+  }
 
   -webkit-animation: color-change-4x 6s linear infinite alternate both;
   animation: color-change-4x 6s linear infinite alternate both;
@@ -64,8 +70,15 @@
   border-bottom: solid rgb(10, 255, 10);
 }
 
-.icono__inicio {
-  display: none;
+
+
+.icono-img{
+  
+  width: 75px;
+}
+
+.bottonmenu {
+ display: none;
 }
 
 .no-cafe {
@@ -147,6 +160,7 @@
 
 .inicio-1 {
   width: 100%;
+  height: auto;
 }
 
 .menu {
@@ -156,11 +170,11 @@
   flex-direction: row;
   justify-content: flex-end;
 
-
-
   gap: 2rem 2rem;
 
 }
+
+
 
 
 .boton {
@@ -259,44 +273,36 @@ img {
   border-radius: 15px;
   grid-area: ele1;
   border: 2px solid rgb(13, 255, 0);
-  background-color: rgb(4, 30, 30);
+  background-color: rgb(35, 206, 206);
 }
 
 .contiennido-2 {
-  border-radius: 15px;
+  @extend .contiennido-1;
   grid-area: ele2;
-  border: 2px solid rgb(34, 138, 28);
+  
 }
 
 .contiennido-3 {
-  border-radius: 15px;
+  @extend .contiennido-1;
   grid-area: ele3;
-  border: 2px solid rgb(13, 255, 0);
-  background-color: rgb(4, 30, 30);
+  
 }
 
 .contiennido-4 {
-  border-radius: 15px;
+  @extend .contiennido-1;
   grid-area: ele4;
-  border: 2px solid rgb(13, 255, 0);
+  
 }
 
 .contiennido-5 {
-  /* width: 500px; */
-  height: 200px;
-  border-radius: 15px;
+  @extend .contiennido-1;
   grid-area: ele5;
-  border: 2px solid rgb(13, 255, 0);
-  background-color: rgb(4, 30, 30);
+ 
 }
 
 
 
 .footer-inicio {
   @extend .footer-preguntas;
- /*  background-color: rgb(15, 228, 15);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; */
+  
 }
