@@ -46,12 +46,14 @@ h1 {
 
 /* inicio*/
 .body-inicio {
+  /*  #btn-menu {
+    display: none;
+  }
+  header label {
+    display: none;
+  } */
   -webkit-animation: color-change-4x 6s linear infinite alternate both;
   animation: color-change-4x 6s linear infinite alternate both; }
-  .body-inicio #btn-menu {
-    display: none; }
-  .body-inicio header label {
-    display: none; }
 
 @-webkit-keyframes color-change-4x {
   0% {
@@ -1350,3 +1352,6 @@ img {
     gap: 1rem 1rem;
     display: flex;
     flex-direction: column; } }
+
+.targetas-body {
+  background-color: greenyellow; }
